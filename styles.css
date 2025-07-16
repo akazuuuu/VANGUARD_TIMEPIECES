@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1d1c1c;
+    padding-top: 82px;
+  }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.navbar > * {
+  flex-shrink: 0;
+}
+
+  
+  #NavHome {
+    color: CD923Ed;
+    background: linear-gradient(90deg, rgb(221, 221, 90), #bfff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .links li a {
+    color: white;
+    text-decoration: none;
+    border: #D4AF37;
+  }
+  
+  .links li a:hover {
+    color: gold;
+  }
+  
+  #HBackground {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 18px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 18px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 18px 26px 0px rgba(0,0,0,0.75);
+  }
+  
+  #HeroImage {
+    max-height: 70%;
+    max-width: 40%;
+    object-fit: contain;
+    display: block;
+    float: left;
+    margin: 35px 0 0 80px;
+    border: 2px solid #CD923E;
+  }
+  
+  .Hero {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+    padding: 2rem;
+  }
+  
+  #HeroP {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 1px;
+    line-height: 1.5em;
+    padding-bottom: 40px;
+  }
+  
+  .hero-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid #D4AF37;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(90deg, #857b39 0%, #b6b239 73%, #e1db3f 100%);
+    font-family: serif;
+    padding: 10px 20px;
+  }
+  
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 2rem;
+  }
+  
+  h1 {
+    color: #CD923E;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  .details-box1,
+  .details-box2,
+  .details-box3,
+  .details-box4,
+  .details-box5 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid #CD923E;
+    border-radius: 30px;
+    padding: 1.5rem;
+    width: 280px;
+    height: 350px;
+    box-sizing: border-box;
+  }
+
+  .gold2pic {
+  border: 2px solid #CD923E;
+  max-height: 70%;
+  max-width: 40%;
+  display: block;
+  margin: 2rem auto;
+  
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+  
+  .footer {
+    border-top: 2px solid #CD923E;
+    background-color: black;
+    padding: 2rem;
+    color: #CD923E;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .footer-section1 {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .footer-section1 a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .footer-section1 a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-section2{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .footer-section2 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .footer-section3{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .footer-section3 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #feature{
+    text-align:  center;
+    width: 100%;
+  }
+
+  .blur-circle {
+  width: 200px;              
+  height: 200px;
+  border-radius: 50%;        
+  background: #CD923E; 
+  filter: blur(200px);      
+  position: absolute;       
+  top: 50%;                
+  left: 100px;
+  z-index: -1;                
+} 
+
+  .blur-circle2 {
+  width: 300px;              
+  height: 300px;
+  border-radius: 50%;        
+  background: #CD923E; 
+  filter: blur(400px);      
+  position: absolute;       
+  top: 1000px;                
+  left: 100px;
+  z-index: -1;                
+}
+
+.blur-circle3 {
+  width: 300px;              
+  height: 300px;
+  border-radius: 50%;        
+  background: #CD923E; 
+  filter: blur(600px);      
+  position: absolute;       
+  top: 1000px;                
+  left: 1000px;
+  z-index: -1;                
+}
+
+#Vid1{
+  width: 80%;
+  max-width: 1000px; 
+  display: block;
+  margin: 2rem auto; 
+  border: 2px solid #CD923E;
+  object-fit: contain;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #CD923E; 
+  margin: 2rem auto;
+  width: 80%;
+}
